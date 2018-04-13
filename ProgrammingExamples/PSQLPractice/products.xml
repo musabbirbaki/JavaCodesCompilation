@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+	<product>
+		<upc>12345</upc>
+		<name>Slurm</name>
+		<price>2.99</price>
+		<desc>A healthy treat, in no way addictive. Consult a doctor if you develop symptoms of rabies after ingesting.</desc>
+	</product>
+	<product>
+		<upc>12346</upc>
+		<name>Slurm Lite</name>
+		<price>2.99</price>
+		<desc>Now with 50% less rabies.</desc>
+	</product>
+	<product>
+		<upc>22222</upc>
+		<name>JustCarbs (TM)</name>
+		<price>4.99</price>
+		<desc>This is literally a potato.</desc>
+	</product>
+	<product>
+		<upc>32689</upc>
+		<name>Unsuspicious Sandwich</name>
+		<price>5.99</price>
+		<desc>A perfectly normal egg salad sandwich. What? No. It's not moving. You're moving.</desc>
+	</product>
+	<product>
+		<upc>55777</upc>
+		<name>Hot Chocolate</name>
+		<price>14.99</price>
+		<desc>This is too expensive, literally nobody will buy this.</desc>
+	</product>
+	<product>
+		<upc>66666</upc>
+		<name>Hellish Cinnamon Candy</name>
+		<price>4.49</price>
+		<desc>They're devilishly good.</desc>
+	</product>
+	<product>
+		<upc>99002</upc>
+		<name>Randy's Own (TM) Buffalo Wing Sauce</name>
+		<price>3.99</price>
+		<desc>Seasoned with spicy puns.</desc>
+	</product>
+	<product>
+		<upc>11111</upc>
+		<name>UOIT Brand Filtered Seawater</name>
+		<price>1.49</price>
+		<desc>Processed to remove up to 98% of student tears.</desc>
+	</product>
+	<product>
+		<upc>24713</upc>
+		<name>Millennial Food</name>
+		<price>22.99</price>
+		<desc>Keep your Millennial healthy and energetic with our patented blend of avocados, artisan quinoa, and desperate pandering.</desc>
+	</product>
+	<product>
+		<upc>20184</upc>
+		<name>Mystery Meme</name>
+		<price>0.49</price>
+		<desc>50% off for a limited time! Why not add some dank to YOUR day?</desc>
+	</product>
+	<product>
+		<upc>44444</upc>
+		<name>48-Hour Energy: Programmer Edition</name>
+		<price>4.79</price>
+		<desc>Guaranteed to keep your heart rate over 120 for two full days or your money back.</desc>
+	</product>
+	<product>
+		<upc>56789</upc>
+		<name>Just a Bunch of Staples</name>
+		<price>0.99</price>
+		<desc>Why would you eat this?!</desc>
+	</product>
+</products>

@@ -1,0 +1,15 @@
+.code{
+    -fx-font-family: monospace;
+    -fx-background-color: #F0F0F0;
+    -fx-control-inner-background: #F0F0F0;
+    -fx-text-fill: #202020;
+    -fx-font-size: 12pt;
+}
+
+#projectTreeView{
+    -fx-font-family: monospace;
+    -fx-background-color: #F0F0F0;
+    -fx-control-inner-background: #F0F0F0;
+    -fx-text-fill: #202020;
+    -fx-font-size: 12pt;
+}

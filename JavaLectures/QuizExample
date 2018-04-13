@@ -1,0 +1,129 @@
+- The purpose of the __InputStreamReader__ class is to convert between bytes and characters on incoming data.
+
+- A block of code where simultaneous accesses to a data item are possible is called a(n) ___critical section_.
+
+- If the calculations that the current thread are performing are not time-sensitive, you may decide to lower your priority with the thread scheduler, by calling the ___yield()___ method.
+
+- Which of the following best describes the git command commit?
+copies the changes made to the local files into the local repository
+
+- In the current version of jUnit, any @BeforeAll, @AfterAll, @BeforeEach, @AfterEach methods must be declared ___static__, but this may change over time.
+
+- _____regression_______ testing is ensuring that future modifications do not cause what once worked properly, to stop working.
+
+- If the following class were accessed by multiple threads, which variable would need thread safety protection?
+public class SharedState {
+public static int NUM_INSTANCES;
+private String serverURL;
+private final String USER_TABLE;
+public SharedState() {
+NUM_INSTANCES++;
+}
+public List<User> getUserCount() {
+NetworkModule.connect(serverURL);
+    List<User> results = NetworkModule.getObjectList(USER_TABLE);
+
+    return results;
+}
+}
+NUM_INSTANCES-----
+
+- In a typical JavaFX application, the __Controller___ class is supposed to handle the events from the user interface.
+
+- A recursive algorithm is given below:
+public List<T> quicksort(List<T> list) {
+if (list.size() <= 1) {
+    return list;
+}
+SplitResults splitResults = split(list);
+List<T> smaller = splitResults.smaller; 
+List<T> larger = splitResults.larger; 
+return quicksort(smaller) + quicksort(larger);
+}
+
+The basic strategy is that if the problem is simple (a base case), it gets solved directly (without recursion).  If it is more difficult, then it gets solved by one or more (two in this case) recursive calls.  The _fork/join____ concurrency model uses this same strategy.
+
+
+- Which of the following methods is blocking?  (select all that apply)
+bufferedReader.readLine()
+thread.join()
+serverSocket.accept()
+
+- Which of the following is not one of the responsibilities of TCP?
+Forwarding messages along the correct path
+
+- Say you have one other thread (workerThread) that is has not yet completed its calculations, but you (the current thread) have finished your calculations.  You should invoke the ___join___ method in order to reduce the number of threads back to one.
+
+- BitTorrent is an example of a(n) _hybrid__ architecture.
+
+- The jUnit method _assertTimeoutPreemtively__ runs some code in a separate thread, killing the thread and failing the test if the code takes longer than some pre-determined time limit.
+
+- Which two TCP flags are set in when the server responds to a client's connection request? 
+SYN
+ACK
+
+- __load_ testing is when you write a script to submit many requests to your
+
+- To convert from a domain name to an IP address, you would use the __InetAddress.getByName()____ Java method.
+
+- In Java, the keyword __synchronized___ acts as a mutex, preventing simultaneous modification by two or more threads.
+
+- Which of the following tasks would include a dependency in their classpath that was added with the following declaration?
+buildscript {
+ repositories {
+ mavenCentral()
+ }
+ dependencies {
+ classpath 'org.glintry.lintry:lintry:1.2.1'
+ }
+}
+(select all that apply)
+The classpath of gradle itself
+
+- Match up the field with its value, based on a packet send through the following socket:
+Socket socket = new Socket("www.abc.com", 80);
+
+Source IP address/domain name
+D. It cannot be determined from the code provided
+
+Source port
+D. It cannot be determined from the code provided
+
+Destination IP address/domain name
+B. www.abc.com
+
+Destination port
+C. 80
+
+Transport protocol
+E. TCP
+
+- A thread (workerThread) is no longer needed.  To stop its operation, when it would otherwise continue working, you should invoke the __interrupt()___ method.
+
+- The function __mkdirs()__ of the File class creates a directory.  If the directories where the new directory is to be created do not already exist, they will also be created.
+
+- The process of _minification__ is when extra whitespace is removed and variable names are shortened.
+
+- jUnit version 4 and above heavily rely on Java _annotations_, denoted by the @ symbol (e.g. @Test) in order to identify test methods and their meta-data.
+
+- Imagine a multi-threaded program that implements a chat server.  As new users connect, they generate a 'CONNECT' message.  As new messages come in, they generate a 'MESSAGE' message.  As a user disconnects, they generate a 'DISCONNECT' message.  There may be more messages.  Each of these messages is handled by its own thread, created just to handle that message.
+
+This is a description of the _reactive__ concurrency model.
+
+- _unit__ testing is when you write code to test the functionality of just a single method, or an entire class.
+
+- The web is an example of a(n) __client/server___ architecture.
+
+- Using _@Tag("")__ is the most convenient way to disable a large number tests for short-term development, without requiring recompilation of tests when enabling/disabling the test.
+
+- A(n) __client/server____ architecture is one which has two distinct application types.  One of these applications makes a connection to the other.  The other only only ever listens for incoming connections, and doesn't necessarily know the IP addresses for any other applications.
+
+- The jUnit method __assertSame()___ fails if the two references provided do not refer to the same object in the same memory location.
+
+- If you don't want to prevent simultaneous writes, but just want to ensure that those writes occur in the correct order, the __volatile___ keyword would be best.
+
+- In test-driven development (TDD), at what point would a programmer be permitted to commit her/his changes to her/his team's shared repository?
+After running a suite of tests that validates the entire module being worked on
+
+- A(n) _fixture__ is an object to be used by a test, that is prepared before executing the test in jUnit.
+

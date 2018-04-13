@@ -1,0 +1,39 @@
+----musabbir@musabbir:~$ ls /etc/postgresql/9.5/main/
+
+environment  pg_hba.conf    postgresql.conf
+pg_ctl.conf  pg_ident.conf  start.conf
+
+----musabbir@musabbir:~$ service postgresql
+
+Usage: /etc/init.d/postgresql {start|stop|restart|reload|force-reload|status} [version ..]
+
+----musabbir@musabbir:~$ service postgresql status
+
+● postgresql.service - PostgreSQL RDBMS
+   Loaded: loaded (/lib/systemd/system/postgresql.service; enabled; vend
+   Active: active (exited) since Thu 2018-04-12 13:17:45 EDT; 14min ago
+ Main PID: 2445 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/postgresql.service
+
+Apr 12 13:17:45 musabbir systemd[1]: Starting PostgreSQL RDBMS...
+Apr 12 13:17:45 musabbir systemd[1]: Started PostgreSQL RDBMS.
+Apr 12 13:17:51 musabbir systemd[1]: Started PostgreSQL RDBMS.
+
+----usabbir@musabbir:~$ sudo su postgres
+
+sudo: unable to resolve host musabbir
+[sudo] password for musabbir: 
+
+postgres@musabbir:/home/musabbir$ psql
+psql (9.5.12)
+
+
+postgres=# \du
+postgres=# ALTER USER postgres WITH PASSWORD 'opensesame';
+postgres=# CREATE USER musabbirbaki WITH PASSWORD 'musabbir124';
+postgres-# create database jpa_test;
+postgres=# \l
+
+
+
+
